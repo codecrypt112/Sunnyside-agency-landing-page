@@ -178,11 +178,11 @@ header {
 }
 
 .col-graph {
-    background: top/cover no-repeat url(../images/mobile/image-graphic-design.jpg)
+    background: top/cover no-repeat url(./images/mobile/image-graphic-design.jpg)
 }
 
 .col-photo {
-    background: top/cover no-repeat url(../images/mobile/image-photography.jpg)
+    background: top/cover no-repeat url(./images/mobile/image-photography.jpg)
 }
 
 .section-4 {
@@ -282,7 +282,7 @@ footer .social-media ul {
 @media all and (min-width: 800px) {
     header {
         padding:35px 40px 325px;
-        background: center/cover no-repeat url(../images/desktop/image-header.jpg)
+        background: center/cover no-repeat url(./images/desktop/image-header.jpg)
     }
 
     .logo-wrap {
@@ -388,7 +388,7 @@ footer .social-media ul {
 
     .section-1::before,.section-2::before {
         content: "";
-        background: center/cover no-repeat url(../images/desktop/image-transform.jpg);
+        background: center/cover no-repeat url(./images/desktop/image-transform.jpg);
         width: 50%;
         height: 100%;
         position: absolute
@@ -404,7 +404,7 @@ footer .social-media ul {
     }
 
     .section-2::before {
-        background: center/cover no-repeat url(../images/desktop/image-stand-out.jpg);
+        background: center/cover no-repeat url(./images/desktop/image-stand-out.jpg);
         left: 0
     }
 
@@ -438,11 +438,11 @@ footer .social-media ul {
     }
 
     .col-graph {
-        background: top/cover no-repeat url(../images/desktop/image-graphic-design.jpg)
+        background: top/cover no-repeat url(./images/desktop/image-graphic-design.jpg)
     }
 
     .col-photo {
-        background: top/cover no-repeat url(../images/desktop/image-photography.jpg)
+        background: top/cover no-repeat url(./images/desktop/image-photography.jpg)
     }
 
     .section-4 {
